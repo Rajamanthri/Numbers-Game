@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="task">
+        <h1>Decrease/ Reset/ Increase</h1>
+        <label id="countlb">0</label><br><br>
+
+        <div class="btn">
+            <button id="decreaseBtn">decrease</button>
+            <button id="resetBtn">reset</button>
+            <button id="increaseBtn">increase</button>
+        </div>
+    </div>
+    <br>
+    <div id="task">
+        <h1>Three Dice</h1>
+        <label id="xlabel">First dice </label><br>
+        <label id="ylabel">Second dice</label><br>
+        <label id="zlabel">Third dice </label><br><br>
+        <button id="roll">Roll</button>
+
+    </div>
+    <br>
+
+    <div id="task">
+        <h1>Number Guessing Game</h1>
+
+        <p>Pick number between 1 - 10</p>
+
+        <input type="text" id="guessbox"><br><br>
+        <button id="submitbtn">Submit</button>
+
+    </div>
+
+    <div id="task">
+        <h1>Convert Temperature</h1>
+        <label >Enter a temperature:</label>
+        <input type="text" id="temp"><br>
+
+        <label >Convert to:</label>
+        <input type="radio" id="cbtn" name="unit">
+        <label for="">Celsius</label>
+        <input type="radio" id="fbtn" name="unit">
+        <label for="">Fahrenheit</label><br>
+
+        <button type="button" id="sub">Submit</button><br>
+        <label id="templbl"></label>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

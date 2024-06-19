@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+
+#countlb{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(86, 86, 243);
+      color: white;
+      border: none;
+      border-radius: 10%;
+      transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: darkblue;
+  }
+
+  #task{
+    background-color: aqua;
+    padding: 80px;
+    margin: 20px;
+  }
